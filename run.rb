@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'bundler/setup'
+
 require 'highline/import'
 require 'bio'
 require File.join(File.dirname(__FILE__), 'lib' ,'mutation')
