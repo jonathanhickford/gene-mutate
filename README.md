@@ -19,17 +19,29 @@ ruby run.rb FASTA_FILE
 ## Example
 ### Input
 Protein Number?  1
+
 Which base has been substituted within the protein (xyz)?  x
+
 Which base has it been substituted to (actg)?  t
+
 
 ### Output
 Reference protein: M
+
 Reference protein names: ["methionine"]
+
 Regerence protein codes: ["Met"]
+
 Reference codon: atg
 
+
+
 Mutated protein: L
+
 Mutated protein names: ["leucine"]
+
 Mutated protein codes: ["Leu"]
+
 Mutated codon: ttg
+
 
