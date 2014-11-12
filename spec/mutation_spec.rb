@@ -13,7 +13,7 @@ describe Mutation do
 	  	it "should be reference protein M" do
 	  		mutation = Mutation.new(@gene, 1, 'x', 'c')
 	  		expect(mutation.reference_protein.translate).to eql 'M'
-	  		expect(mutation.reference_protein).to eql 'atg-fail'
+	  		expect(mutation.reference_protein).to eql 'atg'
 
 	  	end
 	  	

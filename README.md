@@ -6,7 +6,8 @@ Given a Fasta formatted refernce gene transcript file, asks for which protein (1
 
 
 ## Build Status
-[![Build Status](https://travis-ci.org/jonathanhickford/gene-mutate.svg?branch=master)](https://travis-ci.org/jonathanhickford/gene-mutate)
+[![Build Status](https://api.shippable.com/projects/5463158cc6f0803064f43668/badge?branchName=master)](https://app.shippable.com/projects/5463158cc6f0803064f43668/builds/latest)
+
 
 ## Installation and Usage
 
