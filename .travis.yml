@@ -9,4 +9,6 @@ rvm:
   - jruby-19mode # JRuby in 1.9 mode
   - rbx
 # uncomment this line if your project needs to run something other than `rake`:
-script: bundle exec rspec spec
+script: 
+  - mkdir -p shippable/testresults
+  - bundle exec rspec spec -f JUnit -o shippable/testresults/results.xml
