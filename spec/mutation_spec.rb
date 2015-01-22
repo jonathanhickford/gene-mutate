@@ -1,3 +1,4 @@
+require 'spec_helper.rb'
 require File.join(File.dirname(__FILE__), '..', 'lib' ,'mutation')
 
 describe Mutation do

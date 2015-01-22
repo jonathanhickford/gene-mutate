@@ -9,8 +9,9 @@ rvm:
 #  - jruby-19mode # JRuby in 1.9 mode
 #  - rbx
 env:
-  - CI_REPORTS=shippable/testresults
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 # uncomment this line if your project needs to run something other than `rake`:
-script: 
-  - mkdir -p shippable/testresults
-  - bundle exec rspec -f RspecJunitFormatter -o shippable/testresults/results.xml spec
+#script: 
+#  - mkdir -p shippable/testresults
+#  - mkdir -p shippable/codecoverage
+#  - bundle exec rspec -f RspecJunitFormatter -o shippable/testresults/results.xml spec
