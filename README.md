@@ -6,8 +6,7 @@ Given a Fasta formatted refernce gene transcript file, asks for which protein (1
 
 
 ## Build Status
-[![Build Status](https://api.shippable.com/projects/5463158cc6f0803064f43668/badge?branchName=master)](https://app.shippable.com/projects/5463158cc6f0803064f43668/builds/latest)
-
+[![Build Status](https://api.shippable.com/projects/546b1f84d46935d5fbbde453/badge?branchName=master)](https://app.shippable.com/projects/546b1f84d46935d5fbbde453/builds/latest)
 
 ## Installation and Usage
 
