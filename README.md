@@ -2,7 +2,7 @@ gene-mutate
 ===========
 
 ## Description
-Given a Fasta formatted refernce gene transcript file, asks for which protein (1 index, bioinfomatics style) is mutated, which position in the codon is mutated and what base it is mutated too.  It then returns information about the reference protein and mutated protein.
+Given a Fasta formatted reference gene transcript file, asks for which protein (1 indexed, bioinformatics style) is mutated, which position in the codon is mutated and what base it is mutated too.  It then returns information about the reference protein and mutated protein.
 
 
 ## Build Status

@@ -22,6 +22,7 @@ class Mutation
 
 		@mutated_protein  = @reference_protein.dup
 		@mutated_protein[substituted_index] = substituted_to
+		#@mutated_protein_string = mutated_protein_number
 	end
 
 end
